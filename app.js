@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(cors());
 
-const port = process.env.PORT || 4500;
+const port = process.env.PORT || 1234;
 
 app.post('/submitpoint', function (req, res) {
     var previousJSON,newJSON;

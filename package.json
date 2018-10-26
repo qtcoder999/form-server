@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"preinstall": "npm i -g express nodemon"
+    "preinstall": "npm i -g express nodemon",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
